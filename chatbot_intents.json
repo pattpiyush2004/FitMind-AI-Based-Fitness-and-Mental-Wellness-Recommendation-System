@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hi there!",
+                "Hello! How can I help you today?",
+                "Greetings!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you",
+                "Goodbye",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you soon!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "I feel anxious",
+                "I am stressed",
+                "I'm not feeling good",
+                "I'm feeling down"
+            ],
+            "responses": [
+                "It might help to try some breathing exercises.",
+                "You can try journaling or talking to someone you trust.",
+                "Consider practicing mindfulness meditation."
+            ]
+        },
+        {
+            "tag": "fitness_plan",
+            "patterns": [
+                "Suggest a workout",
+                "What is a good fitness plan?",
+                "I want to exercise"
+            ],
+            "responses": [
+                "Try 30 minutes of cardio and strength training!",
+                "Start with light jogging and some push-ups daily.",
+                "Consistency is key, aim for at least 5 days a week!"
+            ]
+        },
+        {
+            "tag": "diet_suggestion",
+            "patterns": [
+                "What should I eat?",
+                "Suggest a diet",
+                "Healthy food options"
+            ],
+            "responses": [
+                "A balanced meal with vegetables, proteins, and whole grains is great.",
+                "Stay hydrated and avoid processed foods.",
+                "Include fruits, nuts, and lean protein in your meals."
+            ]
+        },
+        {
+            "tag": "meditation",
+            "patterns": [
+                "How do I meditate?",
+                "I want to try meditation",
+                "Meditation tips"
+            ],
+            "responses": [
+                "Start with 5 minutes of focused breathing.",
+                "Find a quiet place and sit comfortably.",
+                "You can follow guided meditations online."
+            ]
+        }
+    ]
+}
